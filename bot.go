@@ -364,7 +364,7 @@ func placeBet(
 	request.Header.Set("Accept", "application/json, text/plain, */*")
 	request.Header.Set("Accept-Encoding", "Accept-Encoding")
 	request.Header.Set("Accept-Language", "en-US,en;q=0.9")
-	request.Header.Set("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUSEVfSVNTVUVSIiwiYXVkIjoiVEhFX0FVRElFTkNFIiwiaWF0IjoxNjQ3OTQwNzg3LCJuYmYiOjE2NDc5NDA3ODcsImRhdGEiOnsicHJvZmlsZV9pZCI6Ijc5MTkxNiIsIm1zaXNkbiI6IjI1NDcxNjkwOTkzNSIsInRoZW1lIjoiLTEiLCJzdGF0dXMiOjF9fQ.ClRuyejvxE6RFkFt8__OJuhrkjN7eNP2ClcKoxO4XyYaIn")
+	request.Header.Set("Authorization", "Your Authorization Bearer Token") //Obtain this from a live browser session
 	request.Header.Set("Connection", "keep-alive")
 	request.Header.Set("Content-Type", "application/json;charset=UTF-8")
 	request.Header.Set("Cookie", "odibetskenya=1k8t622knal5uqp7g4qsl78ja0")
