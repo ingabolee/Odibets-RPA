@@ -367,7 +367,7 @@ func placeBet(
 	request.Header.Set("Authorization", "Your Authorization Bearer Token") //Obtain this from a live browser session
 	request.Header.Set("Connection", "keep-alive")
 	request.Header.Set("Content-Type", "application/json;charset=UTF-8")
-	request.Header.Set("Cookie", "odibetskenya=1k8t622knal5uqp7g4qsl78ja0")
+	request.Header.Set("Cookie", "Your session cookie") //obtain this from live browser session
 	request.Header.Set("Host", "odibets.com")
 	request.Header.Set("Origin", "https://odibets.com")
 	request.Header.Set("Referer", "https://odibets.com/")
